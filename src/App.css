@@ -84,6 +84,10 @@ li {
   padding: 10px;
 }
 
+li.dim {
+  color: #bbb;
+}
+
 li button {
   background: none;
   color: #000;
