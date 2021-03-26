@@ -27,7 +27,7 @@ class TodoList extends React.Component {
         </div>
         <ul>
           {this.state.list.map((entry, index) => (
-            <li key={index}>
+            <li key={index} className={value.includes(this.state.entry) ? '' : 'dim'}>
               {entry}
               <button onClick={() => {
                 this.setState((prevState) => {
